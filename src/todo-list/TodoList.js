@@ -1,14 +1,8 @@
 import './TodoList.css';
 import React from 'react';
 
-const TodoList = () => {
-  return (
-    <ul>
-      <li>Learn React</li>
-      <li>Build Tools</li>
-      <li>Record</li>
-    </ul>
-  );
+const TodoList = (props) => {
+  return <ul>props.dataTodos.forEach(element => {})</ul>;
 };
 
 export default TodoList;
