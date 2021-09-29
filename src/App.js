@@ -1,11 +1,13 @@
-import React from "react";
-import "./style.css";
+import React from 'react';
+import './App.css';
+import Todo from './todo/Todo';
 
-export default function App() {
+const App = () => {
   return (
-    <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)hh</p>
+    <div className="App">
+      <Todo />
     </div>
   );
-}
+};
+
+export default App;
